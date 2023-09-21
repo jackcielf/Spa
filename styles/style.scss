@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+
+    .esquerdo {
+        width: 50%;
+        background-color: limegreen;
+
+        .texto {
+            margin-top: 40%;
+            text-align: center;
+            font-size: 5em;
+            color: purple;
+        }
+    }
+
+    .direito {
+        width: 50%;
+        background-color: purple;
+
+        .texto {
+            margin-top: 40%;
+            text-align: center;
+            font-size: 5em;
+            color: limegreen;
+        }
+    }
+}
