@@ -1,3 +1,7 @@
+$cor-principal: limegreen;
+$cor-secundaria: purple;
+
+
 body {
     margin: 0;
     padding: 0;
@@ -7,27 +11,29 @@ body {
     height: 100vh;
     display: flex;
 
-    .esquerdo {
+    .texto {
+        margin-top: 40%;
+        text-align: center;
+        font-size: 5em;
+    }
+
+    .esquerdo, .direito {
         width: 50%;
-        background-color: limegreen;
+    }
+
+    .esquerdo {
+        background-color: $cor-principal;
 
         .texto {
-            margin-top: 40%;
-            text-align: center;
-            font-size: 5em;
-            color: purple;
+            color: $cor-secundaria;
         }
     }
 
     .direito {
-        width: 50%;
-        background-color: purple;
+        background-color: $cor-secundaria;
 
         .texto {
-            margin-top: 40%;
-            text-align: center;
-            font-size: 5em;
-            color: limegreen;
+            color: $cor-principal;
         }
     }
 }
